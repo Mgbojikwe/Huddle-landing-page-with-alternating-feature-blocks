@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+}
+/* Mobile View */
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    max-width: 90%;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+/* I made all the images fit into their parent divs which i already 
+gave a max-width of 90% */
+img {
+    width: 100%;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+.one__logo {
+    width: 9.688rem;
+    height: 1.75rem;
+}
+.one__button {
+    text-decoration: none;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 2rem;
+    font-size: .8rem;
+    padding: .4rem 1.4rem;
+    color:hsl(322, 100%, 66%);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px -1px #ff52c1;
+    letter-spacing: .1rem;
+}
+.one__button:visited, .one__button:hover, .one__button:active {
+    border: 2px solid hsl(192, 100%, 9%);
+    color: hsl(192, 100%, 9%);
+    box-shadow: 0px 1px 5px -1px hsl(192, 100%, 9%);
+}
+.top__header {
+    line-height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .1rem;
+}
+.top__text {
+    line-height: 1.9rem;
+    margin-bottom: 3.5rem;
+}
+.top {
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+.top__button, .single__button {
+    text-decoration: none;
+    border: 2px solid hsl(322, 100%, 66%);
+    border-radius: 2rem;
+    padding: .7rem 1.7rem;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 50%);
+}
+.top__button:visited, .top__button:hover, .single__button:visited, .single__button:hover {
+    background-color: hsl(192, 100%, 9%);
+    border: 2px solid hsl(192, 100%, 9%);
+}
+.top__button:active, .single__button:active {
+    background-color: hsl(192, 100%, 9%);
+    border: 2px solid hsl(192, 100%, 9%);
+}
+.bottom {
+    width: 100%;
+    margin: auto;
+}
+.header {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;        
+}
+
+.container {
+    text-align: center;
+    margin-top: 8rem;
+}
+.three, .four, .five, .six {
+    border: 2px solid white;
+    width: 85%;
+    border-radius: .9rem;
+    box-shadow: 0 3px 7px 2px rgb(0 0 0 / 45%);
+    margin: 4rem auto;
+}
+.six {
+    overflow: hidden;
+    margin: 8rem auto -5.5rem auto;
+    background-color: white;
+}
+.up, .high, .ontop {
+    margin-bottom: 4rem;
+}
+.down__text, .low__text, .under__text {
+    color:  hsl(208, 11%, 55%);
+    font-size: 1rem;
+}
+.single__header {
+    font-size: 1rem;
+    margin: -.5rem 0 2.5rem 0;
+}
+.single__button {
+    font-size: .7rem;
+}
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: absolute;
+    z-index: -1;
+}
+.col-1__image {
+    filter: invert(100%) grayscale(100%) brightness(200%);
+    width: 9.688rem;
+    height: 1.75rem;
+   
+}
+.col1-list, .col-2__list, .col-3__list {
+    list-style-type: none;
+    line-height: 2rem;
+    padding: .8rem 0;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+li > a:hover {
+    text-decoration: underline;
+}
+.col-4__one, .col-4__two, .col-4__three {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    margin: 1rem;
+}
+.col1-list__svg1, .col1-list__svg2, .col1-list__svg3 {
+    padding-left: 1rem;
+}
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+.col-4__one:visited, .col-4__one:hover, .col-4__one:active {
+    color: hsl(322, 100%, 66%);
+}
+.col-4__two:visited, .col-4__two:hover, .col-4__two:active {
+    color: hsl(322, 100%, 66%);
+}
+.col-4__three:visited, .col-4__three:hover, .col-4__three:active {
+    color: hsl(322, 100%, 66%);
+}
+.seven {
+    margin-top: 8rem;
+}
+.eight {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.attribution {
+    color: hsl(322, 100%, 66%);
+    text-decoration: none;
+}
+.attribution:hover {
+    color: white;
+}
+
+/* Tablet View */
+/* Desktop View */
