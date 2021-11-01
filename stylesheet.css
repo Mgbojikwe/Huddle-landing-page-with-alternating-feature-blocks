@@ -15,8 +15,7 @@ body {
     padding: 3rem 1rem;
 }
 
-/* I made all the images fit into their parent divs which i already 
-gave a max-width of 90% */
+/* I made all the images fit into their parent divs which i already gave a max-width of 90% */
 img {
     width: 100%;
 }
@@ -26,7 +25,7 @@ img {
     margin-bottom: -1rem;
 }
 .one__logo {
-    width: 9.688rem;
+    width: 8rem;
     height: 1.75rem;
 }
 .one__button {
@@ -34,14 +33,14 @@ img {
     border: 2px solid hsl(322, 100%, 66%);
     border-radius: 2rem;
     font-size: .8rem;
-    padding: .4rem 1.4rem;
+    padding: .4rem .5rem;
     color:hsl(322, 100%, 66%);
     font-weight: 600;
     cursor: pointer;
     box-shadow: 0px 1px 5px -1px #ff52c1;
     letter-spacing: .1rem;
 }
-.one__button:visited, .one__button:hover, .one__button:active {
+.one__button:hover, .one__button:active {
     border: 2px solid hsl(192, 100%, 9%);
     color: hsl(192, 100%, 9%);
     box-shadow: 0px 1px 5px -1px hsl(192, 100%, 9%);
@@ -71,11 +70,7 @@ img {
     letter-spacing: .1rem;
     box-shadow: 2px 2px 5px 0 rgb(0 0 0 / 50%);
 }
-.top__button:visited, .top__button:hover, .single__button:visited, .single__button:hover {
-    background-color: hsl(192, 100%, 9%);
-    border: 2px solid hsl(192, 100%, 9%);
-}
-.top__button:active, .single__button:active {
+.top__button:hover, .top__button:active, .single__button:hover, .single__button:active {
     background-color: hsl(192, 100%, 9%);
     border: 2px solid hsl(192, 100%, 9%);
 }
@@ -159,13 +154,13 @@ li > a:hover {
     display: flex;
     justify-content: center;
 }
-.col-4__one:visited, .col-4__one:hover, .col-4__one:active {
+.col-4__one:hover, .col-4__one:active {
     color: hsl(322, 100%, 66%);
 }
-.col-4__two:visited, .col-4__two:hover, .col-4__two:active {
+.col-4__two:hover, .col-4__two:active {
     color: hsl(322, 100%, 66%);
 }
-.col-4__three:visited, .col-4__three:hover, .col-4__three:active {
+.col-4__three:hover, .col-4__three:active {
     color: hsl(322, 100%, 66%);
 }
 .seven {
