@@ -8,13 +8,21 @@ body {
     font-size: 1.125rem;
 }
 /* Mobile View */
-
-.one, .two, .three, .four, .five, .six, .seven, .eight {
+.one {
+    max-width: 100%;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+.two, .three, .four, .five, .six, .seven, .eight {
     max-width: 90%;
     margin: auto;
     padding: 3rem 1rem;
 }
-
+.one {
+    max-width: 100%;
+    margin: auto;
+    padding: 3rem 1rem;
+}
 /* I made all the images fit into their parent divs which i already gave a max-width of 90% */
 img {
     width: 100%;
@@ -25,7 +33,7 @@ img {
     margin-bottom: -1rem;
 }
 .one__logo {
-    width: 8rem;
+    width: 8.2rem;
     height: 1.75rem;
 }
 .one__button {
