@@ -18,11 +18,7 @@ body {
     margin: auto;
     padding: 3rem 1rem;
 }
-.one {
-    max-width: 100%;
-    margin: auto;
-    padding: 3rem 1rem;
-}
+
 /* I made all the images fit into their parent divs which i already gave a max-width of 90% */
 img {
     width: 100%;
@@ -190,5 +186,182 @@ li > a:hover {
     color: white;
 }
 
-/* Tablet View */
+
+
+ /* tablet View */
+ @media only screen and (min-width: 900px)  {  
+
+    body {
+        font-size: 1.3rem;
+      }
+    .two{
+          display: flex;
+          
+      }
+    .top {
+        text-align: left;
+        max-width: 40%;
+        margin: auto;
+    }
+    .top__header {
+        width: 100%;
+    }
+    .top__text {
+        text-align: justify;
+    }
+  
+    .bottom {
+      text-align: left;
+      max-width: 40%;
+      margin: auto;
+    }
+
+
+      .three {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .four {
+        display: flex;
+      }
+      .five {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .down, .low, .under {
+        text-align: left;
+        max-width: 40%;
+        margin: auto;
+      }
+      .high, .up, .ontop {
+        max-width: 40%;
+        margin: auto;
+      }
+      .six {
+          width: 50%;
+      }
+      .single__header {
+        font-size: 1.3rem;
+    }
+    .single__button {
+        font-size: .9rem;
+    }
+    .seven {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer {
+        width: 100%;
+    }
+    .col-1 {
+        width: 35%
+    }
+    .col-2, .col-3 {
+        width: 20%;
+    }
+    .col-4 {
+        margin: auto;
+    }
+    .col1-list {
+        width: 80%;
+        text-align: justify;
+    }
+    .seven {
+        padding: 1rem 1rem;
+    }
+    .eight {
+        font-size: .9rem;
+    }
+    .one {
+        max-width: 90%;
+       
+    }
+  }
+
+    @media only screen and (min-width: 900px) and (max-width: 1200px) {}
+
 /* Desktop View */
+  @media only screen and (min-width: 1200px) {
+      body {
+        font-size: 1.3rem;
+      }
+    .two{
+          display: flex;
+          
+      }
+    .top {
+        text-align: left;
+        max-width: 40%;
+        margin: auto;
+    }
+    .top__header {
+        width: 90%;
+    }
+  
+    .bottom {
+      text-align: left;
+      max-width: 40%;
+      margin: auto;
+    }
+
+
+      .three {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .four {
+        display: flex;
+      }
+      .five {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .down, .low, .under {
+        text-align: left;
+        max-width: 40%;
+        margin: auto;
+      }
+      .high, .up, .ontop {
+        max-width: 40%;
+        margin: auto;
+      }
+      .six {
+          width: 50%;
+      }
+      .single__header {
+        font-size: 1.3rem;
+    }
+    .single__button {
+        font-size: .9rem;
+    }
+    .seven {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer {
+        width: 100%;
+    }
+    .col-1 {
+        width: 35%
+    }
+    .col-2, .col-3 {
+        width: 20%;
+    }
+    .col-4 {
+        margin: auto;
+    }
+    .col1-list {
+        width: 80%;
+        text-align: justify;
+    }
+    .seven {
+        padding: 1rem 1rem;
+    }
+    .eight {
+        font-size: .9rem;
+    }
+    .one {
+        max-width: 90%;
+       
+    }
+  }
